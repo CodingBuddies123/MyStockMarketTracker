@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStockMarketTracker", "MyStockMarketTracker\MyStockMarketTracker.csproj", "{67A44EBF-F1D4-4C7A-BDB0-E320C93B6A1D}"
 	ProjectSection(ProjectDependencies) = postProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{A1438DAD-5B4A-4B4E-BAC8-99E64DD9E46A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{799E5768-91A6-4140-A8C8-987EB76746B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyStockMarketTrackerUnitTest", "MyStockMarketTrackerUnitTest\MyStockMarketTrackerUnitTest.csproj", "{0F62E873-481F-44C1-91B9-F03B3B9417D0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{799E5768-91A6-4140-A8C8-987EB76746B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799E5768-91A6-4140-A8C8-987EB76746B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799E5768-91A6-4140-A8C8-987EB76746B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F62E873-481F-44C1-91B9-F03B3B9417D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F62E873-481F-44C1-91B9-F03B3B9417D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F62E873-481F-44C1-91B9-F03B3B9417D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F62E873-481F-44C1-91B9-F03B3B9417D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
